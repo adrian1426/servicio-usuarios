@@ -4,8 +4,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
 import org.springframework.data.rest.webmvc.config.RepositoryRestConfigurer;
 
-import com.servicios.app.usuarios.models.entity.Role;
-import com.servicios.app.usuarios.models.entity.Usuario;
+import com.servicios.app.commons.usuarios.models.entity.Role;
+import com.servicios.app.commons.usuarios.models.entity.Usuario;
 
 @Configuration
 public class RepositoryConfig implements RepositoryRestConfigurer{
